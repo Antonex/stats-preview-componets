@@ -90,28 +90,3 @@ body {
   width: 400px;
   height: auto;
 }
-
-/* @media all and (max-width: 350px) {
-  
-
-} */
-
-@media screen and (max-width: 400px) {
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
- 
-  body {
-    background: hsl(233, 47%, 7%);
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-  }
-  
-  .img-holder {
-    background-image: linear-gradient(hsla(277, 96%, 29%, 0.493),hsla(277, 96%, 29%, 0.63)),url("../images/image-header-desktop.jpg");;
-  }
-  
-}
